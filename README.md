@@ -48,8 +48,7 @@ A **Calculadora Simples** é um projeto desenvolvido para realizar operações m
 ---
 
 ## 👤 Autor
-
-- Nome: [GuilhermeS0uza]  
+ 
 - GitHub: [GuilhermeS0uza](https://github.com/GuilhermeS0uza)
 
 ---
