@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Gui/Dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculadora">
+        <h1 class="titulo">Gui/Dev.</h1>
+        <input type="text" id="display" disabled aria-label="Resultado da operação">
+        
+        <div class="buttons">
+            <button onclick="limparDisplay()" aria-label="Limpar display">C</button>
+            <button onclick="appendToDisplay('7')" aria-label="Adicionar 7">7</button>
+            <button onclick="appendToDisplay('8')" aria-label="Adicionar 8">8</button>
+            <button onclick="appendToDisplay('9')" aria-label="Adicionar 9">9</button>
+            <button onclick="appendToDisplay('+')" aria-label="Adicionar soma (+)">+</button>
+            <button onclick="appendToDisplay('4')" aria-label="Adicionar 4">4</button>
+            <button onclick="appendToDisplay('5')" aria-label="Adicionar 5">5</button>
+            <button onclick="appendToDisplay('6')" aria-label="Adicionar 6">6</button>
+            <button onclick="appendToDisplay('-')" aria-label="Adicionar subtração (-)">-</button>
+            <button onclick="appendToDisplay('1')" aria-label="Adicionar 1">1</button>
+            <button onclick="appendToDisplay('2')" aria-label="Adicionar 2">2</button>
+            <button onclick="appendToDisplay('3')" aria-label="Adicionar 3">3</button>
+            <button onclick="appendToDisplay('*')" aria-label="Adicionar multiplicação (*)">*</button>
+            <button onclick="appendToDisplay('.')" aria-label="Adicionar ponto (.)">.</button>
+            <button onclick="appendToDisplay('0')" aria-label="Adicionar 0">0</button>
+            <button onclick="appendToDisplay('/')" aria-label="Adicionar divisão (/)">/</button>
+            <button class="botaoIgual" onclick="calcularResultado()" aria-label="Calcular resultado">=</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
